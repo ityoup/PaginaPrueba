@@ -1,0 +1,23 @@
+table{
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+	position: relative;
+	right: 120px;
+}
+.Border{
+	border-style: solid;
+	border-color: black;
+	border-collapse: collapse;
+}
+
+.BorderDes{
+	border: solid 3px black;
+	width: 750px;
+}
+
+.versiones{
+	border: solid 3px black;
+	width: 80px;
+
+}

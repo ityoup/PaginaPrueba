@@ -1,0 +1,118 @@
+body{
+	background-color: white;
+}
+#parrafo{
+	color: #0000FF;
+	font-size: 32px;
+	
+}
+.etiqueta{
+	width: 50xp;
+	color: #4B088A;
+	font-size: 25px;
+	
+	
+}
+.caja{
+	justify-content: center;
+	width: 80px;
+	
+	
+	padding: 10px; 
+	border-radius: 3PX;
+	border-style: solid;
+	border-width: 2px;
+	background-color: red;
+	transition: all 0.12s;
+}
+
+.caja:hover{
+	background-color: gray;
+	width: 85px;
+
+	
+}
+
+
+.top{
+	border-style: solid;
+	border-width: 1px;
+	background-color: #fff;
+	width: 800px;
+	text-align: center;
+	
+	
+	border-top: solid 2px #eee;
+	border-color: #ccc;
+	font-size: 30px;
+
+}
+.content{
+	
+	border-style: solid;
+	border-width: 1px;
+	width: 800px;
+	height: 100px;
+	border-top: 1px;
+	background-color: white;
+	border-bottom: solid 1px #eee;
+	border-color: #ccc;
+	font-size: 20px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.footer{
+	border-style: solid;
+	border-width: 1px;
+	padding: 20px;
+	background-color: white;
+	border-color: #ccc;
+	border-bottom: solid 2px #ccc;
+	font-size: 20px;
+	border-top: none 0.5px;
+	width: 760px;
+	height: 20px;
+	text-align: center;
+
+}
+.btnAceptar{
+
+	padding: 25px;
+	justify-content: center;
+	width: 70px;
+	border-radius: 5px;
+	background-color: #0090FF;
+	padding: 5px;
+	font-size: 15px;
+	border: 0px;
+	color: white;
+	transition: color 0.5s,  background-color 0.8s, width 0.12s;
+	
+	
+
+
+
+}
+.btnAceptar:hover{
+	background-color: #89CFF0;
+	
+	width: 75px;
+
+}
+
+.btnCancelar{
+	width: 70px;
+	border-radius: 5px;
+	border-style: solid;
+	background-color: #CACACA;
+	padding: 5px;
+	font-size: 15px;
+	border: 0px;
+	color: black;
+	transition: color 0.5s, background-color 0.5s, width 0.12s;
+}
+.btnCancelar:hover{
+	width: 75px;
+	background-color: gray;
+}
